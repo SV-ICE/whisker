@@ -1,0 +1,24 @@
+.message {
+	padding: 10px;
+	background-color: #d9f1c5;
+	box-shadow: 0 0 4px -2px rgba(0, 0, 0, 0.4);
+	border-radius: 5px;
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.icon {
+	width: 25px;
+	height: 25px;
+	img {
+		display: block;
+		width: 100%;
+		object-fit: contain;
+	}
+}
+
+.text {
+	font-size: 14px;
+}

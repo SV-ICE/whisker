@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.header {
+	grid-area: header;
+	background-color: #9bbd7c;
+	padding: 0 15px;
+	display: flex;
+	gap: 50px;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logoContainer {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+}
+
+.logo {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	overflow: hidden;
+	img {
+		display: block;
+		width: 100%;
+		object-fit: contain;
+	}
+}
+
+.title {
+	font-weight: 600;
+	font-size: 30px;
+	color: #fff;
+	font-family: Quicksand;
+	text-shadow: 2px 1px #888c83;
+}
+
+.authBlock {
+	background-color: transparent;
+	border: none;
+	outline: none;
+	font-size: 18px;
+	font-weight: 500;
+	color: #fff;
+	font-family: Quicksand;
+}
+
+.authUser {
+	display: flex;
+	gap: 5px;
+	align-items: center;
+	svg {
+		width: 20px;
+	}
+}

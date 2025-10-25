@@ -1,0 +1,37 @@
+.post {
+    background-color: #fff;
+    padding: 10px 5px;
+    box-shadow: 0 0 4px -2px rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+}
+
+.body {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.avatar {
+    width: 55px;
+    height: 55px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+
+.message {
+    font-size: 20px;
+    color: #94846f;
+    word-break: break-all;
+}
+
+.footer {
+    
+}
+
+.like {
+    font-size: 14px;
+    color: #f18383;
+    font-weight: 600;
+}
