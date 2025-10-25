@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Redirecting...</title>
+  <script>
+    let path = window.location.pathname;
+    let repoName = '/whisker'; 
+    if (path.startsWith(repoName)) {
+        path = path.substring(repoName.length);
+    }
+    sessionStorage.redirect = path;
+    window.location.replace(repoName);
+  </script>
+</head>
+<body>
+  <h1>404 Not Found - Redirecting...</h1>
+  <a href="/whisker">Click here if you are not redirected</a>
+</body>
+</html>
